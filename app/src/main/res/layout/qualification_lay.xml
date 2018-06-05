@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/hsv_qualification"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+
+        android:text="Qualification" />
+    <EditText
+        android:id="@+id/edt_qualification"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:ems="10"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+
+        android:layout_margin="@dimen/_5sdp"
+        android:inputType="textPersonName"
+        android:background="@drawable/square_border_edittext"
+        android:hint="qualification" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+
+        android:text="Speciality Certifications" />
+    <EditText
+        android:id="@+id/edt_spclity_certification"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:ems="10"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+
+        android:layout_margin="@dimen/_5sdp"
+        android:inputType="textPersonName"
+        android:background="@drawable/square_border_edittext"
+        android:hint="Speciality Certifications" />
+</LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Qualification" />
+            <EditText
+                android:id="@+id/edt_qualification1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="qualification" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Speciality Certifications" />
+            <EditText
+                android:id="@+id/edt_spclity_certification1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="Speciality Certifications" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Qualification" />
+            <EditText
+                android:id="@+id/edt_qualification2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="qualification" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Speciality Certifications" />
+            <EditText
+                android:id="@+id/edt_spclity_certification2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="Speciality Certifications" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Qualification" />
+            <EditText
+                android:id="@+id/edt_qualification3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="qualification" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Speciality Certifications" />
+            <EditText
+                android:id="@+id/edt_spclity_certification3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="Speciality Certifications" />
+        </LinearLayout>
+
+    </LinearLayout>
+</HorizontalScrollView>

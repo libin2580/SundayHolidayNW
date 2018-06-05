@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/hsv_previous"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Company Name" />
+
+            <EditText
+                android:id="@+id/edt_comapny_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/square_border_edittext"
+                android:ems="10"
+
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Postion" />
+
+            <EditText
+                android:id="@+id/edt_position"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/square_border_edittext"
+                android:ems="10"
+
+                android:hint="Position"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Country" />
+
+            <EditText
+                android:id="@+id/edt_cntry"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:background="@drawable/square_border_edittext"
+                android:ems="10"
+
+                android:hint="Country"
+                android:inputType="textPersonName"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Currently Working" />
+
+                <RadioGroup
+                    android:id="@+id/radioworking1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_margin="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/workingNo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NO"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioButton
+                        android:id="@+id/workingYes1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="YES"
+                        android:textSize="@dimen/_11sdp" />
+
+
+                </RadioGroup>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+
+                    android:text="From Date" />
+
+                <EditText
+                    android:id="@+id/edt_from_date1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/square_border_edittext"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="From Date"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+
+                    android:text="To Date" />
+
+                <EditText
+                    android:id="@+id/edt_to_date1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/square_border_edittext"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="to date"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+
+                    android:text="Experince" />
+
+                <EditText
+                    android:id="@+id/edt_experince1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/square_border_edittext"
+                    android:ems="10"
+
+                    android:hint="4"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Company Name 2" />
+        <EditText
+            android:id="@+id/edt_comapny_name1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Postion" />
+        <EditText
+            android:id="@+id/edt_position1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Position" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Country" />
+        <EditText
+            android:id="@+id/edt_cntry1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Country" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="Currently Working" />
+            <RadioGroup
+                android:layout_margin="@dimen/_10sdp"
+                android:id="@+id/radioworking2"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/workingNo2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:textSize="@dimen/_11sdp"/>
+
+                <RadioButton
+                    android:id="@+id/workingYes2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:textSize="@dimen/_11sdp"/>
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="From Date" />
+            <EditText
+                android:id="@+id/edt_from_date2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="From Date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="To Date" />
+            <EditText
+                android:id="@+id/edt_to_date2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="to date" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Experince" />
+            <EditText
+                android:id="@+id/edt_experince2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="4" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Company Name 3" />
+        <EditText
+            android:id="@+id/edt_comapny_name2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Postion" />
+        <EditText
+            android:id="@+id/edt_position2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Position" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+
+            android:text="Country" />
+        <EditText
+            android:id="@+id/edt_experince3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:ems="10"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+
+            android:layout_margin="@dimen/_5sdp"
+            android:inputType="textPersonName"
+            android:background="@drawable/square_border_edittext"
+            android:hint="Country" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="Currently Working" />
+            <RadioGroup
+                android:layout_margin="@dimen/_10sdp"
+                android:id="@+id/radioworking"
+                android:layout_width="fill_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/workingNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO"
+                    android:textSize="@dimen/_11sdp"/>
+
+                <RadioButton
+                    android:id="@+id/workingYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:textSize="@dimen/_11sdp"/>
+
+
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="From Date" />
+            <EditText
+                android:id="@+id/edt_from_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="From Date" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="To Date" />
+            <EditText
+                android:id="@+id/edt_to_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                android:editable="false"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="to date" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:text="Experince" />
+            <EditText
+                android:id="@+id/edt_experince"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:ems="10"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:inputType="textPersonName"
+                android:background="@drawable/square_border_edittext"
+                android:hint="4" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>
